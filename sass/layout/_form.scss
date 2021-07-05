@@ -1,0 +1,29 @@
+form.email-form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 5rem;
+    input.input{
+        padding: 0.8rem;
+        border: 0.1rem solid #f28482;
+        border-radius: 2rem;
+        font-family: "JosefinSans", sans-serif;
+        width: 65%;
+        background: none;
+    }
+    button.button{
+        border-radius: 2rem;
+        padding: 1rem;
+        align-self: center;
+        width: 20%;
+        height: 3rem;
+        margin-left: -3.5rem;
+        border: 0.1rem solid #ce9797;
+        background-color: #f28482;
+        cursor: pointer;
+    }
+    button.button:hover{
+        box-shadow: 0 0 5px 1px black;
+        background-color: #f96262;
+    }
+}

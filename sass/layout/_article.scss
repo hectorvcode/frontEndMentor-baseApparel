@@ -1,0 +1,24 @@
+article.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2.5em;
+    div.first-style{
+        font-size: 2em;
+        font-family: "JosefinSans-light";
+        letter-spacing: 0.3em;
+        color: #ce9797;
+    }
+    div.second-style{
+        font-size: 2.5em;
+        font-family: "JosefinSans";
+        letter-spacing: 0.2em;
+    }
+    p.paragraph-info{
+        font-size: 0.9em;
+        margin: 1em;
+        line-height: 1.6;
+        font-family: 'JosefinSans';
+        color: #ce9797;
+    }
+}

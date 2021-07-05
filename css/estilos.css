@@ -1,3 +1,75 @@
+html body {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
 
+@font-face {
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: "JosefinSans-light";
+  src: url("/fonts/JosefinSans/JosefinSans-Light.ttf");
+}
+article.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2.5em;
+}
+article.title div.first-style {
+  font-size: 2em;
+  font-family: "JosefinSans-light";
+  letter-spacing: 0.3em;
+  color: #ce9797;
+}
+article.title div.second-style {
+  font-size: 2.5em;
+  font-family: "JosefinSans";
+  letter-spacing: 0.2em;
+}
+article.title p.paragraph-info {
+  font-size: 0.9em;
+  margin: 1em;
+  line-height: 1.6;
+  font-family: "JosefinSans";
+  color: #ce9797;
+}
+
+.header .logo {
+  width: 25vw;
+  padding: 1.5em;
+}
+
+form.email-form {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 5rem;
+}
+form.email-form input.input {
+  padding: 0.8rem;
+  border: 0.1rem solid #f28482;
+  border-radius: 2rem;
+  font-family: "JosefinSans", sans-serif;
+  width: 65%;
+  background: none;
+}
+form.email-form button.button {
+  border-radius: 2rem;
+  padding: 1rem;
+  align-self: center;
+  width: 20%;
+  height: 3rem;
+  margin-left: -3.5rem;
+  border: 0.1rem solid #ce9797;
+  background-color: #f28482;
+  cursor: pointer;
+}
+form.email-form button.button:hover {
+  box-shadow: 0 0 5px 1px black;
+  background-color: #f96262;
+}
 
 /*# sourceMappingURL=estilos.css.map */
